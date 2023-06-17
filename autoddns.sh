@@ -5,15 +5,15 @@ bearer=$
 #设置最小速度kB/s
 speed=1000
 #设置数据中心
-colo=SIN
+colo=SIN,HK,JP
 #设置最大延迟ms
 maxms=100
 #设置每个域名A记录数量
 num=5
 #TLS端口
-tlsport=443
+tlsport=443,8443
 #非TLS端口
-notlsport=80
+notlsport=80,8080,8880
 #是否启用TLS,1.启用,0.禁用
 tls=0
 
