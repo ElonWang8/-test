@@ -1,7 +1,7 @@
 #!/bin/bash
 # CF中转IP自动更新
 #API Bearer密钥,在 https://dash.cloudflare.com/profile/api-tokens 创建编辑区域 DNS
-bearer=f-lIYup_0W66pAkyN5hxAFVbaw_qprgaoru3eBY-
+bearer=$
 #设置最小速度kB/s
 speed=1000
 #设置数据中心
@@ -17,8 +17,8 @@ notlsport=80
 #是否启用TLS,1.启用,0.禁用
 tls=0
 
-telegram_token=5379000046:AAEICEKaHhyg7-0A_3YKtlEF7f3YrromOVk
-telegram_chat_id=5320634255
+telegram_token=$
+telegram_chat_id=$
 
 
 chmod +x iptest
